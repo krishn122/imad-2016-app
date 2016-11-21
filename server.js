@@ -24,7 +24,7 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'srt-resume.html'));
 });
-app.get('/', function (req, res) {
+app.get('/ui/blog.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'blog.html'));
 });
 app.get('/ui/resume.css', function (req, res) {
