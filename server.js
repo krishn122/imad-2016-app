@@ -25,7 +25,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'srt-resume.html'));
 });
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'srt-blog.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'blog.html'));
 });
 app.get('/ui/resume.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'resume.css'));
